@@ -1,6 +1,6 @@
 # Identicon
 
-**TODO: Add description**
+**A simple project to generate github-like identicons.**
 
 ## Installation
 
@@ -10,7 +10,7 @@ by adding `identicon` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:identicon, "~> 0.1.0"}
+    {:egd, github: "erlang/egd"}
   ]
 end
 ```
